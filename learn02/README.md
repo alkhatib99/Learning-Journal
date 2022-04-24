@@ -1,1 +1,4 @@
-# Learning-Journal
+# Learning-Journal - 02
+
+## brief
+
