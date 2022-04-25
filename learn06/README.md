@@ -1,18 +1,7 @@
 # Learning-Journal - 06
 
-
-
-## exceptions
-
-## Catching exceptions
-
-
-## When should we catch exceptions?
-
-## Raising exceptions
-
-
-## When should we raise exceptions?
+Today I have learned about exceptions, Catching exceptions, When should we catch exceptions?
+Raising exceptions, When should we raise exceptions?
 
 
 

@@ -1,9 +1,9 @@
-# Learning-Journal - 04
+# Learning-Journal - 04 
 
 
 ### Brief overview of the standard library
 
-The **standard library** , and Random numbers
+The **standard library**, and Random numbers
 
 
 There are also lots of awesome modules that don't come with Python.
