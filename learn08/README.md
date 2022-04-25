@@ -1,8 +1,5 @@
 # Learning-Journal - 08
 
-# Learning-Journal
-
-
 ## What is true?
 
 Now we understand how code like this works.
@@ -26,17 +23,10 @@ else:
     print("You didn't enter anything!")
 ```
 
-What the heck was that? We did `if message`, but `message`
-was a string, not True or False!
-
 Python converted our message to a Boolean and then checked if
 the Boolean it ended up with was True. But when will it be true?
 
 ## Converting to Booleans
-
-The `if message:` actually did the same thing as `if bool(message)`,
-which is same as `if bool(message) == True:`. Usually we just don't
-write the `==True` part anywhere because we don't need it.
 
 We can convert things to Booleans like Python did by doing
 `bool(things)`. Let's try that with strings.
@@ -59,25 +49,6 @@ only string that has a false Boolean value is the empty string,
 
 ```python
 >>> bool('')
-False
->>>
-```
-
-Most other things are also treated as False if they're empty and
-True if they're not empty.
-
-```python
->>> bool([1, 2, 3])
-True
->>> bool([])
-False
->>> bool((1, 2, 3))
-True
->>> bool(())
-False
->>> bool({'a': 1, 'b': 2})
-True
->>> bool({})
 False
 >>>
 ```
@@ -110,36 +81,6 @@ True
 ```
 
 ## When and why should we use Boolean values of things?
-
-It's recommended to rely on the Boolean value when we're doing
-something with things like lists and tuples. This way our code
-will work even if it gets a value of a different type than we
-expected it to get originally.
-
-For example, this code doesn't work right if we give it
-something else than a list. It thinks that empty tuples,
-strings and dictionaries aren't empty just because they aren't
-empty lists:
-
-```python
->>> def is_this_empty(thing):
-...     if thing == []:
-...         print("It's empty!")
-...     else:
-...         print("It's not empty.")
-...
->>> is_this_empty([1, 2, 3])
-It's not empty.
->>> is_this_empty([])
-It's empty!
->>> is_this_empty(())
-It's not empty.
->>> is_this_empty('')
-It's not empty.
->>> is_this_empty({})
-It's not empty.
->>>
-```
 
 We could improve the code by checking against different empty
 things.
