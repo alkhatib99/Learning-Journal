@@ -60,7 +60,6 @@ Number of features seen during fit.
 ***Example***
 
 ```python
->>>
 >>> import numpy as np
 >>> from sklearn.linear_model import LinearRegression
 >>> X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
@@ -74,5 +73,5 @@ array([1., 2.])
 >>> reg.intercept_
 3.0...
 >>> reg.predict(np.array([[3, 5]]))
-array([16.])``
-
+array([16.])
+```
