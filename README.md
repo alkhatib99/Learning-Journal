@@ -21,3 +21,6 @@
 - ["Learn17"](./learn17/README.md)
 - ["Learn18"](./learn18/README.md)
 - ["Learn19"](./learn19/README.md)
+- ["learn26"](./learn26/README.md)
+- ["learn27"](./learn27/README.md)
+
